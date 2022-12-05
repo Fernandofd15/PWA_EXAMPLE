@@ -3,9 +3,11 @@ self.addEventListener('install', e =>{
         .then(cache => {
             return cache.addAll([
                 'index.html',
-                'css/style.css',
-                'img/main.jpg',
-                'app.js',
+                'css/estilos.css',
+                'index.html',
+                'img/AMD_Logo.svg',
+                'img/amdslide.jpg',
+                'img/facebook.png',
                 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
             ])
             
