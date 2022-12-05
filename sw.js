@@ -4,7 +4,6 @@ self.addEventListener('install', e =>{
             return cache.addAll([
                 'index.html',
                 'css/estilos.css',
-                'index.html',
                 'img/AMD_Logo.svg',
                 'img/amdslide.jpg',
                 'img/facebook.png',
